@@ -1,0 +1,78 @@
+body {
+    font-family: 'Radio Canada', sans-serif;
+    background: linear-gradient(#aea4cc, #d3b1a1);
+    background-size: cover;
+    text-align: center;
+    color: #212955;
+    text-shadow: 0 0 1px black;
+}
+h1 {
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    
+}
+
+h4, p {
+    text-align: center;
+    width: 300px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.activities {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.activity-images {
+    width: 250px;
+    height: 175px;
+    border: 5px solid #212955;
+    border-radius: 100%;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.activity-images:hover {
+    width: 275px;
+    height: 200px;
+    margin: 0px 0px;
+    
+}
+
+#skyline-image {
+    position: relative;
+    padding: 0px;
+    max-width: 600px;
+    height: 50%;
+    border: 5px solid #212955;
+
+}
+
+#skyline {
+    padding: 20px;
+}
